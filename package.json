@@ -1,5 +1,5 @@
 {
-  "name": "01-band_names_server",
+  "name": "02-chat_server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,8 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.2",
     "socket.io": "^4.6.0",
     "uuid": "^9.0.0"
   }
